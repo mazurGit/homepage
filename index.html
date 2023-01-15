@@ -3,8 +3,265 @@
   <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Oleh Mazur</h1>
+            <h3 class="contact-info__sub-header">Front End Developer</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a href="tel:+380975474986" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                          <path d="M320 0H64C37.5 0 16 21.5 16 48v416C16 490.5 37.5 512 64 512h256c26.5 0 48-21.5 48-48v-416C368 21.5 346.5 0 320 0zM240 447.1C240 456.8 232.8 464 224 464H159.1C151.2 464 144 456.8 144 448S151.2 432 160 432h64C232.8 432 240 439.2 240 447.1z"/>
+                      </svg>
+                  </div>
+                  <span>+38(097)-547-49-86</span>
+                </a>
+                <a href="mailto:lmazurl@yahoo.com" rel="author" class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/>
+                        </svg>
+                    </div>
+                    <span>yahoo</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img class="contact-info__avatar" src="assets/images/main_photo.png" alt="Avatar">
+              </div>
+
+              <div class="contact-info__block">
+                <a href="https://www.linkedin.com/in/oleh-mazur-51b7a5217" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                      </svg>
+                  </div>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/mazurGit" rel="author" class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                            <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                        </svg>
+                    </div>
+                    <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                  </path>
+                </svg>
+              </div>
+              <p class="intro_text">Hello, everyone!
+                  My name is Oleh. I am junior Front-End Developer who has Bachelor’s degree in Computer Science. I completed a several of courses on Udemy and continue my studying and self-improvement. I am very motivated to bring my knowledge and experience to real-life project as well as to expand my proficiency and gain new skills.
+              </p>
+            </div>
+          </div>
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">HTML, CSS, JS, REACT, SCSS, SASS, GULP, GIT, REST API, I18Next, Redux, MobX, React-Native </p>
+            </div>
+          </div>
+          <div class="resume__block">
+            <div class="main-info fh">
+
+              <div class="experiences">
+                  <h3 class="experiences__header">Experience</h3>
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability">2022</span>
+                      <h3 class="experiences__company-header-name">Binary Studio Academy</h3>
+                    </div>
+                    <div class="experiences__company-project">
+                      <span class="experiences__company-project-role">Developed React Native based application</span>
+                      <h3 class="experiences__company-project-name">React Native Student</h3>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>Worked with i18next library </li>
+                        <li>Added Deep Linking feature</li>
+                        <li>Added Boot Screen</li>
+                        <li>Created a middleware for error handling </li>
+                        <li>Worked with REST API</li>
+                        <li>Created screens layouts</li>
+
+                      </ul>
+                    </div>
+                      <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability">2021 - 2022</span>
+                      <h3 class="experiences__company-header-name">Udemy practice courses</h3>
+                      </div>
+
+                      <div class="experiences__company-project">
+                      <span class="experiences__company-project-role">Developed React based website</span>
+                      <h3 class="experiences__company-project-name">Front End Developer</h3>
+                      <ul class="experiences__company-project-responsibilities">
+                          <li>Created website structure</li>
+                          <li>Created logic on website</li>
+                          <li>Learned how to work with different technologies</li>
+                      </ul>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="additional-info fv">
+                  <div class="additional-info__education">
+                    <h3 class="additional-info__education-header">Education</h3>
+                    <div class="additional-info__education-university">
+                      <span class="additional-info__education-university-durability">2014-2018</span>
+                      <h3 class="additional-info__education-university-speciality">Computer Science and Information Technology</h3>
+                      <p class="additional-info__education-university-name">Khmelnitsky National University, Khmelnitsky, Ukraine</p>
+                    </div>
+                    <div class="additional-info__education-university">
+                      <span class="additional-info__education-university-durability">2007-2010</span>
+                      <h3 class="additional-info__education-university-speciality">Political Science and Government</h3>
+                      <p class="additional-info__education-university-name">Olsztynska Szkola Wyzsza im. Jozefa Rusieckiego, Olsztyn, Poland.</p>
+                    </div>
+                  </div>
+
+                  <div class="additional-info__languages">
+                    <h3 class="additional-info__languages-header">Languages</h3>
+                    <p class="additional-info__languages-item">
+                      Polish - speak, read, write.
+                    </p>
+                    <p class="additional-info__languages-item">
+                      English - speak, read, write.
+                    </p>
+                    <p class="additional-info__languages-item">
+                      Ukrainian (Fluent)
+                    </p>
+                    <p class="additional-info__languages-item">
+                      Russian (Fluent)
+                    </p>
+
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="resume__block">
+            <div class="technologies">
+              <h3 class="technologies__header">Technologies I used</h3>
+              <div class="technologies__list-wrapper">
+                <div class="technologies__item">
+                    <div class="technologies__item-icon"><img src="assets/images/html5.svg" alt="HTML"> </div>
+                    <div class="title title_fz14 technologies__item-title">HTML5</div>
+                    <div class="technologies__item-descr">
+                        The technology which creates the structure of web-sites or applications</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-icon"><img src="assets/images/css3.svg" alt="CSS"> </div>
+                    <div class="title title_fz14 technologies__item-title">CSS3</div>
+                    <div class="technologies__item-descr">This style language that allows to create absolutely any view of your web-site or application.</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-icon"><img src="assets/images/js.svg" alt="Java Script"> </div>
+                    <div class="title title_fz14 technologies__item-title">Java Script</div>
+                    <div class="technologies__item-descr">This programming language that allows you to bring anything to life: sliders, windows, tooltips, tabs, receiving data from the server, and much more.</div>
+                </div>
+
+                <div class="technologies__item">
+                    <div class="technologies__item-icon"><img src="assets/images/react.svg" alt="React"> </div>
+                    <div class="title title_fz14 technologies__item-title">React</div>
+                    <div class="technologies__item-descr">This library allows to create web applications and interactive products for different purposes</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-icon technologies__item-git"><img src="assets/images/Git-logo.svg" alt="Git"> </div>
+                    <div class="title title_fz14 technologies__item-title">Git</div>
+                    <div class="technologies__item-descr">It is a version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.</div>
+                </div>
+                <div class="technologies__item">
+                  <div class="technologies__item-icon technologies__item-git"><img src="assets/images/react-native.png" alt="React-native"> </div>
+                  <div class="title title_fz14 technologies__item-title">React Native</div>
+                  <div class="technologies__item-descr">This library allows to develop mobile cross-platform applications.</div>
+                </div>
+                <div class="technologies__item">
+                  <div class="technologies__item-icon technologies__item-git"><img src="assets/images/mob-x.png" alt="MobX"> </div>
+                  <div class="title title_fz14 technologies__item-title">MobX</div>
+                  <div class="technologies__item-descr">Simple, scalable state management.</div>
+                </div>
+                <div class="technologies__item">
+                  <div class="technologies__item-icon technologies__item-git"><img src="assets/images/redux.png" alt="Redux"> </div>
+                  <div class="title title_fz14 technologies__item-title">Redux</div>
+                  <div class="technologies__item-descr">Alternative state management library.</div>
+                </div>
+                <div class="technologies__item">
+                  <div class="technologies__item-icon technologies__item-git"><img src="assets/images/i18next.png" alt="I18Next"> </div>
+                  <div class="title title_fz14 technologies__item-title">I18next</div>
+                  <div class="technologies__item-descr">i18next is an internationalization-framework written in and for JavaScript.</div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="resume__block">
+            <div class="skill-rank">
+              <h3 class="skill-rank__title">My skills rating</h3>
+              <div class="skill-rank__wrapper">
+                <div class="skill-rank__item">
+                    <div class="skill-rank__header">
+                        <div class="skill-rank__title">Web-site creation skills</div>
+                        <div class="skill-rank__percentage">75%</div>
+                    </div>
+                    <div class="skill-rank__scale">
+                        <div class="skill-rank__mastered"></div>
+                    </div>
+                </div>
+                <div class="skill-rank__item">
+                  <div class="skill-rank__header">
+                      <div class="skill-rank__title">Single page application creation skills</div>
+                      <div class="skill-rank__percentage">65%</div>
+                  </div>
+                  <div class="skill-rank__scale">
+                      <div class="skill-rank__mastered"></div>
+                  </div>
+                </div>
+                <div class="skill-rank__item">
+                  <div class="skill-rank__header">
+                      <div class="skill-rank__title">Working with data</div>
+                      <div class="skill-rank__percentage">70%</div>
+                  </div>
+                  <div class="skill-rank__scale">
+                      <div class="skill-rank__mastered"></div>
+                  </div>
+                </div>
+                <div class="skill-rank__item">
+                  <div class="skill-rank__header">
+                      <div class="skill-rank__title">Creativity</div>
+                      <div class="skill-rank__percentage">75%</div>
+                  </div>
+                  <div class="skill-rank__scale">
+                      <div class="skill-rank__mastered"></div>
+                  </div>
+                </div>
+                <div class="skill-rank__item">
+                  <div class="skill-rank__header">
+                      <div class="skill-rank__title">Mobile application development</div>
+                      <div class="skill-rank__percentage">85%</div>
+                  </div>
+                  <div class="skill-rank__scale">
+                      <div class="skill-rank__mastered"></div>
+                  </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
   </body>
 </html>
