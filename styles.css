@@ -261,3 +261,34 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.skill-rank__title{
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.skill-rank__wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  grid-template-rows: repeat(2,minmax(70px,auto));
+  grid-auto-rows: minmax(70px,auto);
+  justify-content: center;
+  gap: 30px 45px;
+  margin-top: 128px;
+}
+.skill-rank__header{
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.skill-rank__scale{
+  margin-top: 27px;
+  height: 14px;
+  background-color: #E8E4DE;
+  border-radius: 4px;
+}
+.skill-rank__mastered{
+  width: 0%;
+  height: 100%;
+  background-color:var(--text-decoration-color);
+  border-radius: 4px;
